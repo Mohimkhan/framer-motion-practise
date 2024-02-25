@@ -9,6 +9,7 @@ import TransitionType from './components/TransitionType';
 import Variants from './components/Variants';
 import Counter from './components/Counter';
 import ScrollReveal from './components/ScrollReveal';
+import Menu from './components/Menu';
 
 import { AnimatePresence } from 'framer-motion';
 
@@ -28,6 +29,7 @@ function App() {
                   <Route path="/counter" element={<Counter />} />
                   <Route path="/scroll" element={<ScrollReveal />} />
                   <Route path="/variants" element={<Variants />} />
+                  <Route path="/stagger" element={<Menu />} />
                </Route>
             </Routes>
          </AnimatePresence>
