@@ -28,6 +28,9 @@ const Home = () => {
                <Link className="mx-2 my-2 underline" to="/variants">
                   Variants
                </Link>
+               <Link className="mx-2 my-2 underline" to="/stagger">
+                  Stagger
+               </Link>
             </li>
          </ul>
          <div className="mt-8 p-5">
